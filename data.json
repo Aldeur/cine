@@ -1,0 +1,254 @@
+[
+	{
+		"titulo":		"Rex",
+		"parrafo1":		"El edificio del cine Rex, construido en el año 1938, obedeció a una de las primeras manifestaciones del primer modernismo en concepción, definido por la influencia de la experiencia de la bahaus.",
+		"parrafo2":		"Su ubicación originalmente alejada del centro comercial de la ciudad y rodeado por un sector residencial, lo consolido como un cine popular, donde predominaron la exhibición de seriales y comedias, situación que permitió potenciar este cine dentro de un área aislada, con una connotación de cine de barrio, que luego se vio expuesto a la transformación del sector y que lo llevo del cine que gran importancia de los años 50 y 60, a una pista de patinaje, y que hoy en día, tras la compra por sus locatarios y posterior transformación interna, funciona la Vega del \"El Esfuerzo.\"",
+		"parrafo3":		"",
+		"nombre": 		"Cine Rex-Opera",
+		"ubicacion": 	"Rengo 865 Concepción",
+		"capacidad": 	"Indeterminada ",
+		"superficie": 	"935 m2",
+		"arquitecto": 	"Eduardo Enriques del Rio",
+		"anho": 		"1938.",
+		"video": 		"https://www.youtube.com/embed/dWwrriu4WDg",
+		"img":[
+			{	
+				"ilustracion":	"img/rex/z_301.png",
+				"elevacion":	"img/rex/z_302.png"
+			},
+			{
+				"planta_1":		"img/rex/z_303.png",
+				"planta_2":		"img/rex/z_304.png",
+				"planta_3":		"img/rex/z_305.png"
+			}
+		]
+	},
+	{
+		"titulo": 		"Ducal",
+		"parrafo1":		"Edificio de fachada continúa ubicado a mitad de cuadra, vereda oriente, en calle Barros Arana  entre las calles Aníbal Pinto y Colo-Colo, rodeado de actividad comercial se consolido como uno de los principales cines con que contaba la ciudad de concepción y que lamentablemente fue demolido a mediados de 1997 para dar cabida a una tienda comercial y farmacia.  El cine se estructuro en torno al foyer central que reunía los accesos hacia la platea baja y balcón en un espacio de doble altura que distribuía y unificaba estas localidades y generaba la instancia previa hacia la sala de exhibición. Por otro lado, existían dos accesos laterales directos hacia su galería superior que no participaban del foyer central y que nos hablan de la marcada separación de clases.",
+		"parrafo2":		"",
+		"parrafo3":		"",
+		"nombre": 		"Roxi-Ducal ",
+		"ubicacion": 	"Barros Arana 760 Concepción ",
+		"capacidad": 	"Indeterminada.",
+		"superficie": 	"945 m2",
+		"arquitecto": 	"Eduardo Enriques del Rio.",
+		"anho": 		"1940.",
+		"video": 		"",
+		"img":[
+			{	
+				"ilustracion":	"img/ducal/z_306.png",
+				"elevacion":	"img/ducal/z_307.png"
+			},
+			{
+				"planta_1":		"img/ducal/z_308.png",
+				"planta_2":		"img/ducal/z_309.png",
+				"planta_3":		"img/ducal/z_310.png"
+			}
+		]
+	},
+	{
+		"titulo": 		"Astor",
+		"parrafo1":		"El edificio del cine Astor fue construida en el año 1941, se inauguró con el nombre de cine Esplanade perteneciente a la Fox. Posteriormente fue comprado por la sociedad Akel y se reinauguro en 1954 como cine Astor, con la última tecnología de la época, definida por pantalla cinemaescope y sonido estereofónico, toda una revelación para las salas cinematográficas de la ciudad.",
+		"parrafo2":		"Desde entonces funciono de manera ininterrumpida hasta la década del 70, fecha desde la cual se transformaría como compraventa de autos, para luego ser reacondicionado como discotheque y sala de eventos Havana Club.",
+		"parrafo3":		"",
+		"nombre": 		"Cine Esplanade-Astor.",
+		"ubicacion": 	"Barros Arana 1356 Concepción.",
+		"capacidad": 	"Indeterminada.",
+		"superficie": 	"977.5 m2.",
+		"arquitecto": 	"Eduardo Enriquez del Rio.",
+		"anho": 		"1941.",
+		"video": 		"",
+		"img":[
+			{	
+				"ilustracion":	"img/astor/z_311.png",
+				"elevacion":	"img/astor/z_312.png"
+			},
+			{
+				"planta_1":		"img/astor/z_313.png",
+				"planta_2":		"img/astor/z_314.png",
+				"planta_3":		"img/astor/z_315.png",
+				"planta_4":		"img/astor/z_316.png"
+			}
+		]
+	},
+	{
+		"titulo":		"Cervantes",
+		"parrafo1": 	"El edificio de la galería Irazábal en el cual se definió el cine cervantes, fue construida en el año 1943. Su diseño fue realizado por los arquitectos Santiago Aguirre e Inés Frei, quienes definieron la galería como parte del edificio de tres pisos de uso comercial, y de oficina con el cine Cervantes como remate de la galería. Se ubica en la calle Barros Arana, vereda poniente entre Caupolicán y Rengo. Se constituye como un ejemplo de la transición arquitectónica previa al desarrollo de la arquitectura moderna manifestándose su tendencia estilista deco en el cine y en la galería, que alberga en su hall central, los accesos y escaleras hacia los niveles superiores.",
+		"parrafo2":		"",
+		"parrafo3":		"",
+		"nombre": 		"Cine Cervantes.",
+		"ubicacion": 	"Barros Arana 551 Concepción",
+		"capacidad": 	"Indeterminada.",
+		"superficie": 	"668 m2.",
+		"arquitecto": 	"Santiago Aguirre e Inés Frei.",
+		"anho": 		"1943.",
+		"video": 		"",
+		"img":[
+			{	
+				"ilustracion":	"img/cervantes/z_317.png",
+				"elevacion":	"img/cervantes/z_318.png"
+			},
+			{
+				"planta_1":		"img/cervantes/z_319.png",
+				"planta_2":		"img/cervantes/z_320.png",
+				"planta_3":		"img/cervantes/z_321.png"
+				
+			}
+		]
+	},
+	{
+		"titulo": 		"Luxe",
+		"parrafo1":		"EL edificio fue construido en el año 1944, y funciono como cine luxe hasta la década del 70 fecha desde la cual ha pasado con usos diversos, hasta terminar hoy en día como bodega y lugar de ventas de una gran multitienda de concepción, que sin duda para muchos transeúntes es desconocido su origen y tradición como cinematógrafo, por deterioro físico que se encuentra en este momento.",
+		"parrafo2":		"Destaca en su fachada un paño vidriado con un trazado regular, definido con una línea diagonal su perfil de cinematógrafo hacia la calle Barros Arana, sumado a la marquesina que actúa como soporte de este ultimo.",
+		"parrafo3":		"",
+		"nombre": 		"Cine Luxe",
+		"ubicacion": 	"Barros Arana 1055 Concepción",
+		"capacidad": 	"Indeterminada",
+		"superficie": 	"802 m2.",
+		"arquitecto": 	"",
+		"anho": 		"1944.",
+		"video": 		"",
+		"img":[
+			{	
+				"ilustracion":	"img/luxe/z_322.png",
+				"elevacion":	"img/luxe/z_323.png"
+			},
+			{
+				"planta_1":		"img/luxe/z_324.png",
+				"planta_2":		"img/luxe/z_325.png",
+				"planta_3":		"img/luxe/z_326.png",
+				"planta_4":		"img/luxe/z_327.png"
+				
+			}
+		]
+	},
+	{
+		"titulo": 		"Windsor",
+		"parrafo1":		"El edificio del cine Windsor se construye en 1946, su emplazamiento en la esquina de la calles San Martin y Caupolicán lo constituye como el único cine de esquina que se construyó en Concepción, y que presenta su acceso en la yuxtaposición de sus dos volúmenes.",
+		"parrafo2":		"Rodeado de actividad comercial y de una área con influencia educacional por la presencia de varios liceos y colegios se constituyó como uno de los cines que ha incursionado en diferentes tendencias a través de su historia y cuyo pasado con estrenos y con un alto nivel de audiencia se aleja con nostalgia, con el tipo de películas que hoy se exhiben.",
+		"parrafo3":"",
+		"nombre": 		"Cine Windsor.",
+		"ubicacion": 	"San Martin 601.",
+		"capacidad": 	"435 Butacas.",
+		"superficie": 	"557 m2.",
+		"arquitecto": 	"Alfredo Velasco.",
+		"anho": 		"1946.",
+		"video": 		"",
+		"img":[
+			{	
+				"ilustracion":	"img/windsor/z_328.png",
+				"elevacion":	"img/windsor/z_329.png"
+			},
+			{
+				"planta_1":		"img/windsor/z_330.png",
+				"planta_2":		"img/windsor/z_331.png",
+				"planta_3":		"img/windsor/z_332.png",
+				"planta_4":		"img/windsor/z_333.png"
+				
+			}
+		]
+	},
+	{
+		"titulo": 		"Plaza",
+		"parrafo1":		"La galería del cine plaza fue construida en el año 1958, en la cual tras una gran expectación se inauguró el primer cine subterráneo de Concepción, con el nombre de cine Alcázar, para luego ser cambiado al actual nombre de cine Plaza.",
+		"parrafo2": 	"El diseño fue realizado por el arquitecto Fernando Moscoso R., quien definió el cine Plaza como parte de un edificio de dos pisos de uso comercial y de oficina, estructurado con una galería comercial denominada galería Ramos, en la cual el cine Plaza se definía en su subterráneo como remate interior de la galería. Se ubica en la calle Caupolicán vereda norte entre Barros Arana y Freire en un sector propiamente comercial, estructurado en las cercanías de la plaza de Armas y del eje calle Barros Arana.",
+		"parrafo3": 	"",
+		"nombre": 		"Cine Alcázar – Plaza.",
+		"ubicacion": 	"Caupolicán 560 Concepción.",
+		"capacidad": 	"610 Butacas.",
+		"superficie": 	"667 m2.",
+		"arquitecto": 	"Fernando Moscoso",
+		"anho": 		"1958",
+		"video": 		"https://www.youtube.com/embed/NZM7qyZQ72A",
+		"img":[
+			{	
+				"ilustracion":	"img/plaza/z_334.png",
+				"elevacion":	""
+			},
+			{
+				"planta_1":		"img/plaza/z_335.png",
+				"planta_2":		"img/plaza/z_336.png",
+				"planta_3":		"img/plaza/z_337.png",
+				"planta_4":		"img/plaza/z_338.png"
+				
+			}
+		]
+	},
+	{
+		"titulo": 		"Regina",
+		"parrafo1":		"El edificio conjuntamente con la galería Carlos Ekel, fue construida en el año 1960 dentro de la cual se proyectó el cine Regina y que funciono casi en forma ininterrumpida hasta el año 1997, fecha desde la cual ha pasado con funciones ocasionales que lamentablemente hacen extrañar su funcionamiento",
+		"parrafo2": 	"La galería del cine Regina se ubica en Barros Arana entre Angol y Lincoyan, es parte de un edificio de cuatro pisos, el primero de uso comercial y constituye el acceso al cine Regina, que está conformado en su nivel subterráneo, los niveles superiores eran destinado a oficinas, hoy en día este edificio replanteo su fachada para dar acogida a la expresión del hotel  el dorado que elevo su altura y lo integro a una composición mayor.",
+		"parrafo3":		"",
+		"nombre": 		"Cine  Regina.",
+		"ubicacion": 	"Barros Arana 340 Concepción.",
+		"capacidad": 	"467 butacas.",
+		"superficie": 	"877 m2.",
+		"arquitecto": 	"Julio Ramos Lir.",
+		"anho": 		"1960.",
+		"video": 		"https://www.youtube.com/embed/_2jEI_6Rsig",
+		"img":[
+			{	
+				"ilustracion":	"img/regina/z_339.png",
+				"elevacion":	""
+			},
+			{
+				"planta_1":		"img/regina/z_340.png",
+				"planta_2":		"img/regina/z_341.png",
+				"planta_3":		"img/regina/z_342.png"				
+			}
+		]
+		
+	},
+	{
+		"titulo": 		"Lido",
+		"parrafo1":		"El edificio conjuntamente con la galería Lido-Incosa 2, fue construido en el año 1962 dentro de la cual se proyectó el cine Lido y que funciono casi en forma ininterrumpida hasta julio del año 1997, fecha desde la cual paso a formar parte de la universidad de concepción entidad que lo remodelo como la sala número dos del teatro que dicha Universidad.",
+		"parrafo2":		"El cine, se ubica en anibal pinto entre san martin y o’higgins es parte de un edificio de 8 pisos, de uso comercial en el primer nivel definido en la galería lido, de oficinas y habitacional en niveles superiores.",
+		"parrafo3":		"",
+		"nombre": 		"Cine Lido- Sala Dos.",
+		"ubicacion": 	"Anibal pinto 343 Concepción.",
+		"capacidad": 	"616 butacas.",
+		"superficie": 	"804 m2.",
+		"arquitecto": 	"E.Buddembberg O.Caceres.",
+		"anho": 		"1962.",
+		"video": 		"https://www.youtube.com/embed/VoL4MdZYbNs",
+		"img":[
+			{	
+				"ilustracion":	"img/lido/z_343.png",
+				"elevacion":	""
+			},
+			{
+				"planta_1":		"img/lido/z_344.png",
+				"planta_2":		"img/lido/z_345.png",
+				"planta_3":		"img/lido/z_347.png",
+				"planta_4":		"img/lido/z_348.png"				
+			}
+		]
+	},
+	{
+		"titulo": 		"Romano",
+		"parrafo1":		"Edificio de fachada continua ubicado a mitad de cuadra en el año 1964.Se ubica en la esquina del paseo peatonal de calle Barros Arana con calle Colo-Colo, rodeado de actividad comercial se consolidó como uno de los principales cines con que contaba la ciudad de concepción que lamentablemente se demolido  mediados de 1997 para dar cabida a una tienda comercial y farmacia.",
+		"parrafo2": 	"El edificio que constituye la galería y el cine romano, fue construida en el año 1964.Se ubica en la esquina del paseo peatonal de calle Barros Arana con calle Colo-Colo, con acceso por ambas calles a la galería, el edificio de que es parte está conformado por una placa comercial de dos niveles con el cine romano en un subterráneo,  y torre de 5 pisos, destinada a oficinas y hotel.",
+		"parrafo3": 	"",
+		"nombre": 		"Cine Romano - Sala Romano.",
+		"ubicacion": 	"Barros Arana 780 Concepción.",
+		"capacidad": 	"472 butacas.",
+		"superficie": 	"594 m2.",
+		"arquitecto": 	"Gabriela González Leniz.",
+		"anho": 		"1964.",
+		"video": 		"0",
+		"img":[
+			{	
+				"ilustracion":	"img/romano/z_348.png",
+				"elevacion":	""
+			},
+			{
+				"planta_1":		"img/romano/z_349.png",
+				"planta_2":		"img/romano/z_350.png",
+				"planta_3":		"img/romano/z_351.png",
+				"planta_4":		"img/romano/z_352.png"				
+			}
+		]
+	}
+
+]	

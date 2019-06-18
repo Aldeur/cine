@@ -24,100 +24,35 @@
 
 <body>
 <div class="container-fluid">
-
 	<div class="row">
 		<div class="col-lg-12">
 			<center><p>Selecciona un marcador en pantalla para mostrar la información del cine.</p></center>
 		</div>	
 	</div>	
+
 	<div class="row">
 		<div class="col-lg-12">
-			<center><div id="mapid" style="width: 500px; height: 500px;"></div><br><br></center>
+			<center><div id="mapid"></div><br><br></center>
 		</div>
 	</div>
-<!--
-<div id="hola" class="row" style="visibility: hidden;" >
-	<p id="demo" onclick="myFunction()">Click me.</p>
-</div>
--->	
-<!--
-	<div id="info_" class="row" style="visibility: hidden;">
-		<div class="col">
-			<h2>Cine </h2>
 
-			<p> </p>
+	<div class="row" ><div id="texto" class="col"></div></div>	
 
-			<b>Nombres:</b> <br>
-			<b>Ubicación:</b>  <br>
-			<b>Capacidad:</b> <br>
-			<b>Superficie:</b> <br>
-			<b>Arquitecto:</b>  <br>
-			<b>Año:</b> </p> <br>
-		</div>
-	</div>
-	<div id="info_" class="col">
-		<h2>Cine </h2>
-
-		<p> </p>
-
-		<b>Nombres:</b> <br>
-		<b>Ubicación:</b>  <br>
-		<b>Capacidad:</b> <br>
-		<b>Superficie:</b> <br>
-		<b>Arquitecto:</b>  <br>
-		<b>Año:</b> </p> <br>
-	</div>
--->
-<div class="row" ><div id="texto" class="col"></div></div>
 	<div class="row">
-		<div id="info_Rex" class="col-lg-12 d-none">
-			<center><h2>Cine Rex</h2></center>
-			<p>El edificio del cine Rex, construido en el año 1938, obedeció a una de las primeras manifestaciones del primer modernismo en concepción, definido por la influencia de la experiencia de la bahaus.</p> 
-			<p>Su ubicación originalmente alejada del centro comercial de la ciudad y rodeado por un sector residencial, lo consolido como un cine popular, donde predominaron la exhibición de seriales y comedias, situación que permitió potenciar este cine dentro de un área aislada, con una connotación de cine de barrio, que luego se vio expuesto a la transformación del sector y que lo llevo del cine que gran importancia de los años 50 y 60, a una pista de patinaje, y que hoy en día, tras la compra por sus locatarios y posterior transformación interna, funciona la Vega del “El Esfuerzo”.</p>
-			<b>Nombres:</b> 	Cine Rex-Opera <br>
-			<b>Ubicación:</b> 	Rengo 865 Concepción<br>
-			<b>Capacidad:</b> 	Indeterminada<br>
-			<b>Superficie:</b> 	935 m2 <br>
-			<b>Arquitecto:</b> 	Eduardo Enriques del Rio <br>
-			<b>Año:</b> 		1938. <br>
-		</div>
-			
-		<div id="info_Ducal" class="col-lg-12 d-none" >
-			<center><h2>Cine Ducal</h2></center>
-			<p>Edificio de fachada continúa ubicado a mitad de cuadra, vereda oriente, en calle Barros Arana  entre las calles Aníbal Pinto y Colo-Colo, rodeado de actividad comercial se consolido como uno de los principales cines con que contaba la ciudad de concepción y que lamentablemente fue demolido a mediados de 1997 para dar cabida a una tienda comercial y farmacia.  El cine se estructuro en torno al foyer central que reunía los accesos hacia la platea baja y balcón en un espacio de doble altura que distribuía y unificaba estas localidades y generaba la instancia previa hacia la sala de exhibición. Por otro lado, existían dos accesos laterales directos hacia su galería superior que no participaban del foyer central y que nos hablan de la marcada separación de clases. </p>
-			<b>Nombres:</b> Roxi-Ducal <br>
-			<b>Ubicación:</b> Barros Arana 760 Concepción <br>
-			<b>Capacidad:</b> Indeterminada<br>
-			<b>Superficie:</b> 945 m2<br>
-			<b>Arquitecto:</b> Eduardo Enriques del Rio <br>
-			<b>Año:</b> 1940. <br>
-		</div>
-		<div id="info_Astor" class="col-lg-12 d-none" >
-			<center><h2>Cine Astor</h2></center>
+		<div id="info_cine" class="col-lg-12 d-none"> <!-- d-none oculta div -->
+			<!--<center><h2>Cine Rex</h2></center>-->
+			<center><h2><b>Cine <label id="info_titulo"></label></b></h2></center>
+			<p id="info_parrafo1"></p>
+			<p id="info_parrafo2"></p>
+			<p id="info_parrafo3"></p>
+			<label style="font-weight: bold;font-size: 25px;">Datos</label><br>
+			<b>Nombre:</b> 		<label id=info_nombre></label><br>
+			<b>Ubicación:</b>	<label id=info_ubicacion></label><br>
+			<b>Capacidad:</b>	<label id=info_capacidad></label><br>
+			<b>Superficie:</b>	<label id=info_superficie></label><br>
+			<b>Arquitecto:</b>  <label id=info_arquitecto></label><br>
+			<b>Año:</b>			<label id=info_anho></label><br>
 
-			<p>El edificio del cine Astor fue construida en el año 1941, se inauguró con el nombre de cine Esplanade perteneciente a la Fox. Posteriormente fue comprado por la sociedad Akel y se reinauguro en 1954 como cine Astor, con la última tecnología de la época, definida por pantalla cinemaescope y sonido estereofónico, toda una revelación para las salas cinematográficas de la ciudad.</p>
-			<p>Desde entonces funciono de manera ininterrumpida hasta la década del 70, fecha desde la cual se transformaría como compraventa de autos, para luego ser reacondicionado como discotheque y sala de eventos Havana Club.</p>
-
-			<b>Nombres:</b> Esplanade-Astor <br>
-			<b>Ubicación:</b> Barros Arana 1356 Concepción  <br>
-			<b>Capacidad:</b> Indeterminada<br>
-			<b>Superficie:</b> 977.5 m2  <br>
-			<b>Arquitecto:</b> Eduardo Enriquez del Rio  <br>
-			<b>Año:</b> 1941.   <br>
-		</div>
-		
-		<div id="info_Cervantes" class="col-lg-12 d-none">
-			<center><h2>Cine Cervantes</h2></center>
-
-			<p>El edificio de la galería Irazábal en el cual se definió el cine cervantes, fue construida en el año 1943. Su diseño fue realizado por los arquitectos Santiago Aguirre e Inés Frei, quienes definieron la galería como parte del edificio de tres pisos de uso comercial, y de oficina con el cine Cervantes como remate de la galería. Se ubica en la calle Barros Arana, vereda poniente entre Caupolicán y Rengo. Se constituye como un ejemplo de la transición arquitectónica previa al desarrollo de la arquitectura moderna manifestándose su tendencia estilista deco en el cine y en la galería, que alberga en su hall central, los accesos y escaleras hacia los niveles superiores.</p>
-
-			<b>Nombre:</b> Cervantes  <br>
-			<b>Ubicación:</b> Barros Arana 551 Concepción  <br>
-			<b>Capacidad:</b> Indeterminada <br>
-			<b>Superficie:</b> 668 m2<br>
-			<b>Arquitecto:</b> Santiago Aguirre e Inés Frei<br>
-			<b>Año:</b> 1943<br><br><br>
-			
 			<!-- Inicio container info: Galeria/Arquitectura/Video-->
 			<div class="container-fluid">
 			  <div id="accordion">
@@ -126,9 +61,14 @@
 			      <div class="card-header">
 			      	<a class="card-link" data-toggle="collapse" href="#collapseOne">Galeria</a>
 			      </div>
-			      <div id="collapseOne" class="collapse" data-parent="#accordion">
+			      <div id="collapseOne" class="collapse" data-parent="#accordion"> 	<!-- class="collapse"-->
 			        <div class="card-body">
-			          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			        	<!-- /////////////////////////////////// -->
+			        	<center>
+			          	<img id="ilustracion" src="" style="height: 200px"><br>
+			          	<img id="elevacion" src="" style="height: 200px;">
+			          	</center>
+			          	<!-- /////////////////////////////////// -->
 			        </div>
 			      </div>
 			    </div>
@@ -139,7 +79,13 @@
 			      </div>
 			      <div id="collapseTwo" class="collapse" data-parent="#accordion">
 			        <div class="card-body">
-			          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			        	<!-- /////////////////////////////////// -->
+			          	<center>
+			          	<img id="planta_1" src="" style="height: 200px"><br>
+			          	<img id="planta_2" src="" style="height: 200px"><br>
+			          	<img id="planta_3" src="" style="height: 200px">
+			          	</center>
+			          	<!-- /////////////////////////////////// -->
 			        </div>
 			      </div>
 			    </div>
@@ -150,131 +96,40 @@
 			      </div>
 			      <div id="collapseThree" class="collapse" data-parent="#accordion">
 			        <div class="card-body">
-			          <center><iframe width="560" height="315" src="https://www.youtube.com/embed/2qnBRBEfmy4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+			          	<center><label id="video"></label></center>
+						<!--<label id="video"></label>-->
+  	
 			        </div>
 			      </div>
 			    </div>
 			  </div>
 			</div>
 		</div>
-
-
-		<div id="info_Luxe" class="col-lg-12 d-none">
-			<center><h2>Cine Luxe</h2></center>
-
-			<p>EL edificio fue construido en el año 1944, y funciono como cine luxe hasta la década del 70 fecha desde la cual ha pasado con usos diversos, hasta terminar hoy en día como bodega y lugar de ventas de una gran multitienda de concepción, que sin duda para muchos transeúntes es desconocido su origen y tradición como cinematógrafo, por deterioro físico que se encuentra en este momento.</p>
-			<p>Destaca en su fachada un paño vidriado con un trazado regular, definido con una línea diagonal su perfil de cinematógrafo hacia la calle Barros Arana, sumado a la marquesina que actúa como soporte de este ultimo.</p>
-
-			<b>Nombre:</b> Luxe<br>
-			<b>Ubicación:</b> Barros Arana 1055 Concepción<br>
-			<b>Capacidad:</b> Indeterminada<br>
-			<b>Superficie:</b> 802 m2<br>
-			<b>Arquitecto:</b>  <br>
-			<b>Año:</b> 1944<br>
-		</div>
-
-		<div id="info_Windsor" class="col-lg-12 d-none">
-			<center><h2>Cine Windsor</h2></center>
-
-			<p>El edificio del cine Windsor se construye en 1946, su emplazamiento en la esquina de la calles San Martin y Caupolicán lo constituye como el único cine de esquina que se construyó en Concepción, y que presenta su acceso en la yuxtaposición de sus dos volúmenes.</p>
-			<p>Rodeado de actividad comercial y de una área con influencia educacional por la presencia de varios liceos y colegios se constituyó como uno de los cines que ha incursionado en diferentes tendencias a través de su historia y cuyo pasado con estrenos y con un alto nivel de audiencia se aleja con nostalgia, con el tipo de películas que hoy se exhiben.</p>
-
-			<b>Nombre:</b> Windsor  <br>
-			<b>Ubicación:</b> San Martin 601 Concepción  <br>
-			<b>Capacidad:</b> 435 Butacas  <br>
-			<b>Superficie:</b> 557 m2 <br>
-			<b>Arquitecto:</b>  Alfredo Velasco <br>
-			<b>Año:</b> 1946.  <br>
-		</div>
-
-		<div id="info_Plaza" class="col-lg-12 d-none">
-			<center><h2>Cine Plaza </h2></center>
-
-			<p>La galería del cine plaza fue construida en el año 1958, en la cual tras una gran expectación se inauguró el primer cine subterráneo de Concepción, con el nombre de cine Alcázar, para luego ser cambiado al actual nombre de cine Plaza.</p>
-
-			<p>El diseño fue realizado por el arquitecto Fernando Moscoso R., quien definió el cine Plaza como parte de un edificio de dos pisos de uso comercial y de oficina, estructurado con una galería comercial denominada galería Ramos, en la cual el cine Plaza se definía en su subterráneo como remate interior de la galería. Se ubica en la calle Caupolicán vereda norte entre Barros Arana y Freire en un sector propiamente comercial, estructurado en las cercanías de la plaza de Armas y del eje calle Barros Arana.</p>
-			<b>Nombres:</b>Alcázar –Plaza <br>
-			<b>Ubicación:</b> Caupolicán 560 Concepción  <br>
-			<b>Capacidad:</b> 610 Butacas  <br>
-			<b>Superficie:</b> 667 m2 <br>
-			<b>Arquitecto:</b> Fernando Moscoso  <br>
-			<b>Año:</b> 1958  <br>
-			<br><br>
-			<center><iframe width="560" height="315" src="https://www.youtube.com/embed/NZM7qyZQ72A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
-		</div>
-
-		<div id="info_Regina" class="col-lg-12 d-none">
-			<center><h2>Cine Regina</h2></center>
-
-			<p>El edificio conjuntamente con la galería Carlos Ekel, fue construida en el año 1960 dentro de la cual se proyectó el cine Regina y que funciono casi en forma ininterrumpida hasta el año 1997, fecha desde la cual ha pasado con funciones ocasionales que lamentablemente hacen extrañar su funcionamiento</p>
-			<p>La galería del cine Regina se ubica en Barros Arana entre Angol y Lincoyan, es parte de un edificio de cuatro pisos, el primero de uso comercial y constituye el acceso al cine Regina, que está conformado en su nivel subterráneo, los niveles superiores eran destinado a oficinas, hoy en día este edificio replanteo su fachada para dar acogida a la expresión del hotel  el dorado que elevo su altura y lo integro a una composición mayor.</p>
-			<b>Nombres:</b> Regina <br>
-			<b>Ubicación:</b> Barros Arana 340 Concepción  <br>
-			<b>Capacidad:</b> 467 butacas <br>
-			<b>Superficie:</b> 877 m2 <br>
-			<b>Arquitecto:</b> Julio Ramos Lira<br>
-			<b>Año:</b> 1960. <br>
-			<br><br>
-			<center><iframe width="560" height="315" src="https://www.youtube.com/embed/_2jEI_6Rsig" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
-		</div>	
-
-		<div id="info_Lido" class="col-lg-12 d-none">
-			<center><h2>Cine Lido </h2></center>
-
-			<p>El edificio conjuntamente con la galería Lido-Incosa 2, fue construido en el año 1962 dentro de la cual se proyectó el cine Lido y que funciono casi en forma ininterrumpida hasta julio del año 1997, fecha desde la cual paso a formar parte de la universidad de concepción entidad que lo remodelo como la sala número dos del teatro que dicha Universidad.</p>
-			<p>El cine, se ubica en anibal pinto entre san martin y o’higgins es parte de un edificio de 8 pisos, de uso comercial en el primer nivel definido en la galería lido, de oficinas y habitacional en niveles superiores.</p>
-
-			<b>Nombres:</b> Lido- Sala Dos  <br>
-			<b>Ubicación:</b> Anibal pinto 343 Concepción   <br>
-			<b>Capacidad:</b> 616 butacas <br>
-			<b>Superficie:</b> 804 m2<br>
-			<b>Arquitecto:</b> E.Buddembberg O.Caceres  <br>
-			<b>Año:</b> 1962.   <br>
-
-			<center><iframe width="560" height="315" src="https://www.youtube.com/embed/VoL4MdZYbNs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
-		</div>
-
-		<div id="info_Romano" class="col-lg-12 d-none">
-			<center><h2>Cine Romano</h2></center>
-
-			<p>Edificio de fachada continua ubicado a mitad de cuadra en el año 1964.Se ubica en la esquina del paseo peatonal de calle Barros Arana con calle Colo-Colo, rodeado de actividad comercial se consolidó como uno de los principales cines con que contaba la ciudad de concepción que lamentablemente se demolido  mediados de 1997 para dar cabida a una tienda comercial y farmacia. </p>
-			<p>El edificio que constituye la galería y el cine romano, fue construida en el año 1964.Se ubica en la esquina del paseo peatonal de calle Barros Arana con calle Colo-Colo, con acceso por ambas calles a la galería, el edificio de que es parte está conformado por una placa comercial de dos niveles con el cine romano en un subterráneo,  y torre de 5 pisos, destinada a oficinas y hotel. </p>
-
-			<b>Nombres:</b> Romano- Sala Romano<br>
-			<b>Ubicación:</b> Barros Arana 780 Concepción   <br>
-			<b>Capacidad:</b> 472 butacas <br>
-			<b>Superficie:</b> 594 m2<br>
-			<b>Arquitecto:</b> Gabriela González Leniz  <br>
-			<b>Año:</b> 1964.<br>
-		</div>
-
-		<!--
-		<div id="info_" class="col-lg-12 d-none">
-			<center><h2>Cine </h2><center>
-
-			<p> </p>
-
-			<b>Nombres:</b> <br>
-			<b>Ubicación:</b>  <br>
-			<b>Capacidad:</b> <br>
-			<b>Superficie:</b> <br>
-			<b>Arquitecto:</b>  <br>
-			<b>Año:</b>  <br>
-		</div>
-	-->
 	</div>
-
-	
-
-
 </div>	
 	<script>
+		/*leafletjs control size of windows
+		Link: https://stackoverflow.com/questions/16543446/how-to-make-leaflet-map-height-variable
+		Demo: http://jsfiddle.net/fPEaV/
+		*/
+		$(window).on("resize", function() {
+    		$("#mapid").height("500px").width($(window).width()-"1px");
+    		$("#mapid").width();
+		}).trigger("resize");
 
 		var mymap = L.map('mapid').setView([-36.82703, -73.05031], 15.4);
 
-		L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-			maxZoom: 18			
+		//L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {	
+			maxZoom: 18,
+			minZoom: 14		
 		}).addTo(mymap);
+
+		/*var myIcon = L.icon({
+			iconUrl: 'img/icon/Film projector free icon 5.svg',
+			iconSize: [32,32]
+		});*/
+
 
 		var markers = [
 		    {pos: [-36.82374, -73.05512], popup: "Rex",				title:'Rex'},
@@ -290,7 +145,7 @@
 		];    
 		
 		markers.forEach(function (obj) {
-   			var m = L.marker(obj.pos,{title:obj.title}),
+   			var m = L.marker(obj.pos,{title:obj.title/*,icon: myIcon*/}),
        		p = new L.Popup({ autoClose: true, closeOnClick: false })
             .setContent("<b>Cine "+obj.popup+"</b>")
             .setLatLng(obj.pos);
@@ -299,6 +154,13 @@
     		m.on('click',onClick),
     		m.addTo(mymap);
 		});
+
+		var requestURL = 'data.json';
+		var request = new XMLHttpRequest();
+		request.open('GET', requestURL);
+		request.responseType = 'json';
+		request.send();
+
 		/*
 		$(document).ready(function(){
     		$("p").click(function(){
@@ -313,136 +175,130 @@
   			});
 		});	
 		*/
-
-		function clear_Data(){
-			$("#info_Rex").addClass('d-none');
-			$("#info_Ducal").addClass('d-none');
-			$("#info_Astor").addClass('d-none');
-			$("#info_Cervantes").addClass('d-none');
-			$("#info_Luxe").addClass('d-none');
-			$("#info_Windsor").addClass('d-none');
-			$("#info_Plaza").addClass('d-none');
-			$("#info_Regina").addClass('d-none');
-			$("#info_Lido").addClass('d-none');
-			$("#info_Romano").addClass('d-none');
-			console.log( 'limpiado' );
-		}
-
-
 		function onClick(e){
-
 			var m=this.options.title;
-			if(m=='Rex'){	
-				/*document.getElementById("info_Rex").style.visibility='visible';*/
-				clear_Data();
-				$('#info_Rex').appendTo('#texto');
-				$("#info_Rex").removeClass('d-none');
-				console.log( 'Rex' );		
-			}
-			if(m=='Ducal'){
-				/*document.getElementById("info_Ducal").style.visibility='visible';*/
-				clear_Data();
-				$('#info_Ducal').appendTo('#texto');
-				$("#info_Ducal").removeClass('d-none');
-				console.log('Ducal');
-			}
-			if(m=='Astor'){
-				/*document.getElementById("info_Astor").style.visibility='visible';*/
-				clear_Data();
-				$('#info_Astor').appendTo('#texto');
-				$("#info_Astor").removeClass('d-none');
-				console.log('Astor');
-			}	
-			if(m=='Cervantes'){
-				/*document.getElementById("info_Astor").style.visibility='visible';*/
-				clear_Data();
-				$('#info_Cervantes').appendTo('#texto');
-				$("#info_Cervantes").removeClass('d-none');
-				console.log('Cervantes');
-			}	
-			if(m=='Luxe'){
-				/*document.getElementById("info_Astor").style.visibility='visible';*/
-				clear_Data();
-				$('#info_Luxe').appendTo('#texto');
-				$("#info_Luxe").removeClass('d-none');
-				console.log('Luxe');
-			}		
-			if(m=='Windsor'){
-				/*document.getElementById("info_Astor").style.visibility='visible';*/
-				clear_Data();
-				$('#info_Windsor').appendTo('#texto');
-				$("#info_Windsor").removeClass('d-none');
-				console.log('Windsor');
-			}	
-			if(m=='Plaza'){
-				/*document.getElementById("info_Astor").style.visibility='visible';*/
-				clear_Data();
-				$('#info_Plaza').appendTo('#texto');
-				$("#info_Plaza").removeClass('d-none');
-				console.log('Plaza');
-			}	
-			if(m=='Regina'){
-				/*document.getElementById("info_Astor").style.visibility='visible';*/
-				clear_Data();
-				$('#info_Regina').appendTo('#texto');
-				$("#info_Regina").removeClass('d-none');
-				console.log('Regina');
-			}
-			if(m=='Lido'){
-				/*document.getElementById("info_Astor").style.visibility='visible';*/
-				clear_Data();
-				$('#info_Lido').appendTo('#texto');
-				$("#info_Lido").removeClass('d-none');
-				console.log('Lido');
-			}	
-			if(m=='Romano'){
-				/*document.getElementById("info_Astor").style.visibility='visible';*/
-				clear_Data();
-				$('#info_Romano').appendTo('#texto');
-				$("#info_Romano").removeClass('d-none');
-				console.log('Romano');
+			switch(m){
+				case "Rex":
+					change_data(m);	
+					console.log('Rex');
+				break;
+				case "Ducal":
+					change_data(m);	
+					console.log('Ducal');
+				break;
+				case "Astor":
+					change_data(m);	
+					console.log('Astor');
+				break;
+				case "Cervantes":
+					change_data(m);	
+					console.log('Cervantes');
+				break;
+				case "Luxe":
+					change_data(m);	
+					console.log('Luxe');
+				break;
+				case "Windsor":
+					change_data(m);	
+					console.log('Windsor');
+				break;
+				case "Plaza":
+					change_data(m);	
+					console.log('Plaza');
+				break;
+				case "Regina":
+					change_data(m);	
+					console.log('Regina');
+				break;
+				case "Lido":
+					change_data(m);	
+					console.log('Lido');
+				break;
+				case "Romano":
+					change_data(m);	
+					console.log('Romano');
+				break;
 			}
 
-
+	    }
+		/*function use d-nose into a makers in openstreetmap1*/
+		function clear_Data(){
+			$('#info_cine').appendTo('#texto');
+			$("#info_cine").removeClass('d-none');
+			document.getElementById("ilustracion").src			="";
+			document.getElementById("elevacion").src			="";
+			document.getElementById("planta_1").src				="";
+			document.getElementById("planta_2").src				="";
+			document.getElementById("planta_3").src				="";
+			document.getElementById("video").innerHTML			="";
 		}
-
-		/*function onClick(e) {
-			
-			var m=this.options.title;
-
-			if(m=='Rex')	{document.getElementById("info_Rex").style.visibility='visible';}
-			if(m=='Regina')	{document.getElementById("info_Regina").style.visibility='visible';}
-			if(m=='chao')	{document.getElementById("info_Ducal").style.visibility='visible';}
-			
-
-			/*if(m!='Rex')	{document.getElementById("demo").style.visibility='hidden';
-							 document.getElementById('info_Rex').style.visibility='hidden';}
-		}	*/
-	  	/*var popup = L.popup();
-		mymap.on('click', onMapClick);
-
-		L.circle([51.508, -0.11], 500, {
-			color: 'red',
-			fillColor: '#f03',
-			fillOpacity: 0.5
-		}).addTo(mymap).bindPopup("I am a circle.");
-
-		L.polygon([
-			[51.509, -0.08],
-			[51.503, -0.06],
-			[51.51, -0.047]
-		]).addTo(mymap).bindPopup("I am a polygon.");
-
-		var popup = L.popup();
-
-		function onMapClick(e) {
-			popup
-				.setLatLng(e.latlng)
-				.setContent("You clicked the map at " + e.latlng.toString())
-				.openOn(mymap);
+		function change_data(e){
+			clear_Data();
+			var data;
+			dato = request.response;
+			console.log('hola');
+			//console.log(dato[0].titulo);
+			switch(e)	{
+				case "Rex":
+					data=dato[0]; 
+				break;
+				case "Ducal":
+					//data=Ducal; 
+					data=dato[1];
+				break;
+				case "Astor":
+					//data=Astor; 
+					data=dato[2];
+				break;
+				case "Cervantes":
+					//data=Cervantes; 
+					data=dato[3];
+				break;
+				case "Luxe":
+					//data=Luxe; 
+					data=dato[4];
+				break;
+				case "Windsor":
+					//data=Windsor; 
+					data=dato[5];
+				break;
+				case "Plaza":
+					//data=Plaza; 
+					data=dato[6];
+				break;
+				case "Regina":
+					//data=Regina; 
+					data=dato[7];
+				break;
+				case "Lido":
+					//data=Lido; 
+					data=dato[8];
+				break;
+				case "Romano":
+					//data=Romano; 
+					data=dato[9];
+				break;
+			}
+			document.getElementById("info_titulo").innerHTML	=data.titulo;
+			document.getElementById("info_parrafo1").innerHTML	=data.parrafo1;
+			document.getElementById("info_parrafo2").innerHTML	=data.parrafo2;
+			document.getElementById("info_parrafo3").innerHTML	=data.parrafo3;
+			document.getElementById("info_nombre").innerHTML	=data.nombre;
+			document.getElementById("info_ubicacion").innerHTML	=data.ubicacion;
+			document.getElementById("info_capacidad").innerHTML	=data.capacidad;
+			document.getElementById("info_superficie").innerHTML=data.superficie;
+			document.getElementById("info_arquitecto").innerHTML=data.arquitecto;
+			document.getElementById("info_anho").innerHTML		=data.anho;
+			document.getElementById("ilustracion").src			=data.img[0].ilustracion;
+			document.getElementById("elevacion").src			=data.img[0].elevacion;
+			document.getElementById("planta_1").src				=data.img[1].planta_1;
+			document.getElementById("planta_2").src				=data.img[1].planta_2;
+			document.getElementById("planta_3").src				=data.img[1].planta_3;
+			//document.getElementById("video").src				=data.video;
+			if(data.video!=0){
+				document.getElementById("video").innerHTML			="<iframe width='560' height='315' src='"+data.video+"' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+			}
 		}
-		*/
-
 	</script>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
